@@ -1,0 +1,36 @@
+Introduction
+
+Welcome to the Pharmacy Checkout System.
+This system assists patients in picking up their medications.
+
+
+Getting Started
+Launch the program.
+Follow on-screen prompts.
+
+
+Patient Selection
+Input your choice (1-5) for the corresponding patient.
+Ensure you select the correct patient.
+
+Medication Pickup
+You will be assigned a random medication.
+Answer if you've taken the medication before.
+If you haven't, a pharmacist will provide information.
+
+Pharmacist Interaction
+If you haven't taken the medication before, you'll speak with a pharmacist.
+The pharmacist will explain the medication and its usage.
+
+Payment
+You'll be informed of the total cost.
+You can proceed to pay for the medication.
+
+Validation
+Ensure you provide accurate responses.
+Patient name must match the selected patient.
+Follow HIPAA regulations for patient privacy.
+
+Conclusion
+Thank you for using the Pharmacy Checkout System.
+Have a great day!
