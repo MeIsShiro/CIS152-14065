@@ -24,6 +24,15 @@ class PharmacyCheckoutSystem {
         ArrayList<Medication> medications = new ArrayList<>();
         medications.add(new Medication("Lisinopril", "used for high blood pressure", "not good to take with potassium supplements"));
         medications.add(new Medication("Hydrochlorothiazide", "used for fluid retention", "not good to take with alcohol"));
+        medications.add(new Medication("Aspirin", "used as a pain reliever", "not good to take on an empty stomach", 5.00));
+        medications.add(new Medication("Simvastatin", "used to lower cholesterol", "not good to take with grapefruit", 12.00));
+        medications.add(new Medication("Metformin", "used to treat diabetes", "not good to take with alcohol", 8.00));
+        medications.add(new Medication("Levothyroxine", "used to treat hypothyroidism", "not good to take with soy", 9.00));
+        medications.add(new Medication("Amoxicillin", "used to treat bacterial infections", "not good to take with antacids", 7.00));
+        medications.add(new Medication("Ibuprofen", "used to reduce pain and inflammation", "not good to take with blood thinners", 6.00));
+        medications.add(new Medication("Omeprazole", "used to reduce stomach acid", "not good to take with clopidogrel", 11.00));
+        medications.add(new Medication("Atorvastatin", "used to lower cholesterol", "not good to take with grapefruit", 13.00));
+
 
         // Randomly select a patient
         Random random = new Random();
@@ -48,7 +57,7 @@ class PharmacyCheckoutSystem {
 
         // If the user has not had this medication before, provide pharmacist counseling
         if (userResponse.equalsIgnoreCase("no")) {
-            System.out.println("Pharmacist: The pharmacist will speak with you.");
+            System.out.println("The pharmacist will speak with you.");
 
             // Randomly select a pharmacist
             String[] pharmacists = {"Dr. Smith", "Dr. Johnson", "Dr. Brown"};
