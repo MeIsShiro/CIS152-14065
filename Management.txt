@@ -1,0 +1,55 @@
+Project Title: Pharmacy Prescription Checkout System
+
+Problem Description:
+
+In a busy pharmacy, handling prescription pickups for customers efficiently is crucial. Patients approach the pharmacy counter, providing their name and date of birth to collect their medications. It's essential to verify the customer's identity and provide the cost of the prescription accurately.
+
+Project Solution:
+
+This project aims to create a Pharmacy Prescription Checkout System to facilitate prescription pickups for customers. The system will include a simulated database of patients' names, dates of birth, and their corresponding prescription costs. When a customer approaches the counter, the system will ask for their name and date of birth, search for a match in the database, and calculate the cost of the prescription.
+
+Data Structures & Sorting Algorithm:
+
+Data Structures:
+Arrays for storing patient names, dates of birth, and prescription costs.
+Sorting Algorithm:
+Not applicable.
+GUI Drawing:
+
+The GUI will feature an input field for the customer's name and date of birth, a button to initiate the prescription checkout, and a display area to show the prescription cost.
+
+Project Milestones:
+
+Sprint 1: Data Structure Setup
+
+Create arrays for storing patient names, dates of birth, and prescription costs.
+Populate the arrays with sample data.
+Sprint 2: User Interface Development
+
+Develop a user-friendly interface to input customer information.
+Design a checkout button and a display area for prescription cost.
+Sprint 3: Prescription Checkout Logic
+
+Implement logic to verify the customer's identity by comparing entered name and date of birth with the database.
+Calculate the prescription cost based on the matched patient's data.
+Sprint 4: Customer Feedback
+
+Display the prescription cost and generate a transaction record.
+Provide feedback to the customer with the total cost and a confirmation message.
+User's Manual:
+
+The user's manual will provide instructions for customers to enter their name and date of birth. It will also guide pharmacists on interacting with the system for prescription verification and cost calculation.
+
+Conclusion:
+
+The Pharmacy Prescription Checkout System complies with MERUSE principles:
+
+Modularity: The system uses structured data arrays.
+Efficiency: The system optimizes memory and time usage.
+Robustness: It ensures accurate customer identification and cost calculation.
+Usability: The system simplifies the prescription checkout process for both customers and pharmacists.
+Readability: The code is well-commented and organized.
+Elegance: The code maintains a consistent style.
+Future Versions:
+
+Future versions may incorporate additional features like prescription history and insurance claims to enhance customer service and efficiency.
